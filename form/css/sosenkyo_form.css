@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+#formID p {
+  padding: 10px 10px;
+}
+#formID dt strong,
+#formID dd strong {
+  color: #ff0000;
+  font-weight: bold;
+}
+#formID dt {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+#formID dd {
+  padding: 10px 10px;
+  text-align: center;
+}
+#formID .btn-default {
+  width: 90px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.formSECTION {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.formSECTION label{
+  display: block;
+  padding-bottom: 10px;
+}
+.formSECTION label {
+  display: block;
+  width: auto;
+  max-width: 55%;
+  margin: auto;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+@media (max-width:580px) {
+
+  #formID dd.col-xs-6 {
+    display: inline-block;
+    font-size: 13px;
+    box-sizing: border-box;
+  }
+  #formID dd.col-xs-6 label{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .formSECTION label{
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+  }
+}
+.formSECTION div.pos label {
+  width: 100%;
+  /* max-width: 210px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.formSECTION div.pos label input {
+}
+.formSECTION p {
+  text-align: center;
+}
+input[type="radio"] {
+  appearance: radio;
+  -moz-appearance: radio;
+  -webkit-appearance: radio;
+  margin: 0;
+  display: inline-block;
+}
+input[type="text"] {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  line-height: 1.8;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+#footer-cols {
+  margin-bottom: 0;
+}
+.mrg-0B {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 580px) {
+  #formID dl {
+    border-top: 1px solid #cccccc;
+  }
+  #formID dd {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  input[type="radio"] {
+    /* text-align: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  }
+}
+@media screen and (min-width: 581px) {
+  #formID label {
+    display: inline-block;
+    width: 210px;
+  }
+  #formID dl {}
+  #formID dt {
+    width: 35%;
+    background: none;
+    padding: 17px 0 0;
+  }
+  #formID dt.textTag {
+    padding-top: 24px;
+  }
+  #formID dd {
+    margin-left: 35%;
+    padding: 1rem;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  #formID input[type="text"] {
+    width: 60%;
+  }
+  .formSECTION {
+    margin-bottom: 0;
+  }
+  .formSECTION label {
+    margin-bottom: 0;
+  }
+  input[type="radio"] {
+    width: auto;
+  }
+  .contents_detail dl dt ,
+  .contents_detail dl dd {
+    min-height: 24px;
+  }
+  .contents_detail dl dd.min-H50 {
+    min-height: 50px;
+    height: 50px;
+  }
+}
